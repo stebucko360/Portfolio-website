@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+body{
+  margin: 0%;
+  font-family: 'Crimson Pro', serif;
+}
+
+.heading {
+  background-color: black;
+  height: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  margin: 0%;
+}
+
+.namecontainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.mainbartitle {
+  color: aliceblue;
+  margin-bottom: 0%;
+  font-size: 100%;
+}
+
+.mainportfolio {
+  color: aliceblue;
+  margin-top: 0px;
+  align-self: center;
+  font-size: 100%;
+  padding-right: 1.8cm;
+}
+
+.logo {
+  color: aliceblue;
+  align-self: center;
+  padding-left: 33%;
+  font-size: 1cm;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.constlogo {
+  color: rgb(12, 170, 233);
+  font-size: 50% 
+}
+
+.equals {
+  font-size: 50%;
+}
+
+.arrow {
+  color: red;
+}
+
+.medialinks {
+  padding-left: 20%;
+  padding-top: 10px;
+}
+
+.githublogo, .instalogo{
+  width: 1cm;
+  color: aliceblue;
+  padding-left: 10px;
+}
+
+
