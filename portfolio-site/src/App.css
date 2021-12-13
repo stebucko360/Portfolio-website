@@ -60,6 +60,7 @@ body{
 .mainbartitle {
   color: aliceblue;
   margin-bottom: 0%;
+  font-size: 10px;
 }
 
 .mainportfolio {
@@ -67,7 +68,7 @@ body{
   margin-top: 0px;
   align-self: center;
   font-size: 100%;
-  padding-right: 1.8cm;
+  padding-right: 85px;
 }
 
 .logo {
