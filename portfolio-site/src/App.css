@@ -38,8 +38,9 @@ body{
 
 .logo {
   color: aliceblue;
-  align-self: center;
-  padding-left: 33%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 38%;
   font-size: 1cm;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -58,14 +59,58 @@ body{
 }
 
 .medialinks {
-  padding-left: 20%;
+  padding-left: 30%;
   padding-top: 10px;
 }
 
-.githublogo, .instalogo{
+.githublogo, .instalogo, .linkedinlogo{
   width: 1cm;
   color: aliceblue;
   padding-left: 10px;
 }
 
+.sboxcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: white;
+  height: 100vh;
+}
 
+div1 {
+  width: 20vw;
+  display: flex;
+
+}
+
+div2 {
+  width: 59vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+div3 {
+  width: 20vw;
+  display: flex;
+
+}
+
+button {
+  display: flex;
+  height: 29vh;
+  width: 29vw;
+  margin: 2px;
+  border-radius: 5px;
+  align-content: center;
+  font-size: 1cm;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}

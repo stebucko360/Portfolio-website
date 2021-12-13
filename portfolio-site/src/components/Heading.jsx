@@ -1,5 +1,6 @@
 import githublogo from "../images/whitegit.png"
 import instagramlogo from "../images/instagramwhite.png"
+import linkedinlogo from "../images/linkedinwhite.png"
 
 export const Heading = () => {
     return (
@@ -15,6 +16,7 @@ export const Heading = () => {
             <div className='medialinks'>
                 <img className='githublogo' src={githublogo} alt='github'></img>
                 <img className='instalogo' src={instagramlogo} alt='instagram'></img>
+                <img className='linkedinlogo' src={linkedinlogo} alt='linkedin'></img>
             </div>
         </div>
     )
