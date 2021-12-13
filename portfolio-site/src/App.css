@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Exo:100);
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+@-webkit-keyframes bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
+@-moz-keyframes    bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
+@-o-keyframes      bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
+@keyframes         bg-scrolling-reverse {
+  100% { background-position: 50px 50px; }
+}
 
+@-webkit-keyframes bg-scrolling {
+  0% { background-position: 50px 50px; }
+}
+@-moz-keyframes    bg-scrolling {
+  0% { background-position: 50px 50px; }
+}
+@-o-keyframes      bg-scrolling {
+  0% { background-position: 50px 50px; }
+}
+@keyframes         bg-scrolling {
+  0% { background-position: 50px 50px; }
+}
 body{
   margin: 0%;
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Exo', sans-serif;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC");
+  -webkit-animation: bg-scrolling-reverse .92s infinite; /* Safari 4+ */
+  -moz-animation:    bg-scrolling-reverse .92s infinite; /* Fx 5+ */
+  -o-animation:      bg-scrolling-reverse .92s infinite; /* Opera 12+ */
+  animation:         bg-scrolling-reverse .92s infinite; /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function:    linear;
+  -o-animation-timing-function:      linear;
+  animation-timing-function:         linear;
 }
 
 .heading {
@@ -27,7 +60,6 @@ body{
 .mainbartitle {
   color: aliceblue;
   margin-bottom: 0%;
-  font-size: 100%;
 }
 
 .mainportfolio {
@@ -46,7 +78,7 @@ body{
   width: 60vw;
   align-items: center;
   font-size: 1cm;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 .constlogo {
@@ -80,7 +112,6 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  background-color: white;
   height: 100vh;
   padding-left: 10vw;
 }
@@ -114,7 +145,7 @@ button {
   align-content: center;
   font-size: 1cm;
   background-color: white;
-  font-family: 'Bakbak One', cursive;
+  font-family: 'Exo', sans-serif;
 }
 
 button:hover {
