@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
 
 body{
   margin: 0%;
@@ -8,8 +10,8 @@ body{
 
 .heading {
   background-color: black;
-  height: 5%;
-  width: 100%;
+  height: 6vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   padding: 1%;
@@ -19,7 +21,7 @@ body{
 .namecontainer {
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
+  width: 10vw;
 }
 
 .mainbartitle {
@@ -39,8 +41,10 @@ body{
 .logo {
   color: aliceblue;
   justify-content: center;
+  padding-left: 13vw;;
+  text-align: center;
+  width: 60vw;
   align-items: center;
-  padding-left: 38%;
   font-size: 1cm;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -59,8 +63,10 @@ body{
 }
 
 .medialinks {
-  padding-left: 30%;
   padding-top: 10px;
+  width: 10vw;
+  padding-left: 15vw;
+  padding-right: 5vh;
 }
 
 .githublogo, .instalogo, .linkedinlogo{
@@ -76,6 +82,7 @@ body{
   align-content: flex-start;
   background-color: white;
   height: 100vh;
+  padding-left: 10vw;
 }
 
 div1 {
@@ -100,17 +107,38 @@ div3 {
 
 button {
   display: flex;
-  height: 29vh;
-  width: 29vw;
+  height: 35vh;
+  width: 20vw;
   margin: 2px;
   border-radius: 5px;
   align-content: center;
   font-size: 1cm;
   background-color: white;
+  font-family: 'Bakbak One', cursive;
 }
 
 button:hover {
   cursor: pointer;
   background-color: black;
   color: white;
+}
+
+#portfoliobutton {
+  padding-left: 6vw;
+  padding-top: 14vh;
+}
+
+#aboutbutton {
+  padding-left: 7vw;
+  padding-top: 14vh;
+}
+
+#contactbutton {
+  padding-left: 6vw;
+  padding-top: 14vh;
+}
+
+#skillsbutton {
+  padding-left: 2vw;
+  padding-top: 14vh;
 }
