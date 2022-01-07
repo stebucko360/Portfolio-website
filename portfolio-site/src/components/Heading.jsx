@@ -3,6 +3,8 @@ import instagramlogo from "../images/instagramwhite.png"
 import linkedinlogo from "../images/linkedinwhite.png"
 
 export const Heading = () => {
+
+    
     return (
         <div className='heading'>
             <div className='namecontainer'>
